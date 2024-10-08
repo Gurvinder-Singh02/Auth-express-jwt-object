@@ -1,6 +1,7 @@
 # Auth-express-jwt-html
 
 Simplified Express app with jwt verification with a simplest frontend you can use postman also
+data is stored in js object on the server
 
 ## Features
 - **Sign Up**: Register users
