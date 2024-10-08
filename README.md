@@ -1,6 +1,6 @@
-# Auth-express-jwt
+# Auth-express-jwt-html
 
-Simplified Express app with jwt verification 
+Simplified Express app with jwt verification with a simplest frontend you can use postman also
 
 ## Features
 - **Sign Up**: Register users
