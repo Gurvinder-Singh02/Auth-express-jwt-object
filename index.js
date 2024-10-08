@@ -8,7 +8,9 @@ const path = require('path');
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
-const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_SECRET = process.env.JWT_SECRET || "topsecret";
+
+//to serve public file
 const USERS_FILE_PATH = path.join(__dirname, 'users.json');
 const users = [];
 
